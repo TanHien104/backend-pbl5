@@ -1,23 +1,15 @@
 {
   "development": {
-    "username": "motel_room_user",
-    "password": "jcTS0uqhifgz90jUW9PAVLrmZw4bAZXl",
-    "database": "motel_room",
-    "port":"5432",
-    "host": "dpg-chfmi1ak728sd6mkfhug-a.singapore-postgres.render.com",
-    "dialect": "postgres",
-    "logging": false,
-    "timezone":"+07:00",
-    "dialectOptions":{
-      "ssl":{
-        "require":true,
-        "rejectUnauthorized":false
-      }
-    }
-    
+    "username": "root",
+    "password": null,
+    "database": "motel-room",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  },
     
 
-  },
+  
   "production": {
     "username": "motel_room_user",
     "password": "jcTS0uqhifgz90jUW9PAVLrmZw4bAZXl",
